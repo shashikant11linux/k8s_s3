@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo jinkinsfile job name = $JOB_NAME'
+               
                 sh '''
                    ./test.sh"
                 '''
