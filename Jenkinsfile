@@ -9,9 +9,9 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'echo workspace  = $workspace_location/$JOB_NAME'
+                sh 'echo jinkinsfile job name = $JOB_NAME'
                 sh '''
-                   ./jenkins/build/test.sh"
+                   ./test.sh"
                 '''
             }
         }
