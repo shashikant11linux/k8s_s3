@@ -3,7 +3,7 @@ pipeline {
 
     
     environment {
-        workspace_path = '/home/ec2-user/jenkins-data/jeknins_home/workspace/$JOB_NAME'
+        workspace_path = '/home/ec2-user/jenkins-data/jeknins_home/workspace'
     }
     
     stages {
