@@ -11,7 +11,7 @@ pipeline {
             steps {
                
                 sh '''
-                   ./test.sh"
+                   ./test.sh
                 '''
             }
         }
