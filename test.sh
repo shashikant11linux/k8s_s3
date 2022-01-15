@@ -2,5 +2,5 @@
 echo "##################"
 echo "Build Jobs"
 echo "#################"
-echo 'workspace = $workspace_path'
+echo "workspace = $JNK_PATH"
 echo 'job_name = ${JOB_NAME}'
